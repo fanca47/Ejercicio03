@@ -95,49 +95,122 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: 40px;
   
     
 }
 #hero {
-    margin-top: 65px;
-    padding: 70px 0;
+    margin-top: 30px;
+    padding: 55px;
     max-width: 1200px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    gap: 50px;
-    border: #02050e solid;
-    border-radius: 30px;
+    border: 1px black solid;
+    border-radius: 20px;
 }
-.hero-img img {
-    width: 40%;
-    border-radius: 125px;
-}
+
 .hero-info {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 60px;
     width: 50%;
+    align-items: center;
 }
+
 .hero-info h1 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-
+    font-size: 60px;
+    width: 80%;
+    min-width: 500px;
+    font-weight: 800;
+    background: linear-gradient(to top, #e9a21e8c, #186a01);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+   
 }
+
 .hero-info p {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    font-size: 25px;
+    width: 70%;
+    color: var(--background);
+    text-align: center;
 }
-#info {
-    margin-top: 65px;
-    padding: 70px 0;
-    max-width: 1200px;
+
+#hero img {
+    width: 100%;
+    border-radius: 115px;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 50px;
-    border: #02050e solid;
-    border-radius: 30px;
+
+}
+.info-buttoms-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.info-buttoms-container button {
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 800;
+    background-color: #186a01;
+    border-radius: 15px;
+
+}
+
+#benef {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 40px;
+    border: 1px black solid;
+    max-width: 1200;
+    border-radius: 15px;
+    
+
+}
+.benefits-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 30px;
+}
+.benefits-title h2 {
+    font-size: 40px;
+    font-weight: 600;
+    color: #186a01;
+}
+.b-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    max-width: 1200px;
+}
+.benefit-card {
+    border: 1px solid black;
+    border-radius: 10px;
+    gap: 20px;
+    display: flex;   
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    max-width: 33%;
+
+}
+.benefit-card img {
+    max-width: 30%;
+}
+.benefit-card h3 {
+    font-size: 20px;
+    font-weight: 800;
+
+}
+.benefit-card p {
+   text-align: center;
+   
+}
